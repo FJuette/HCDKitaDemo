@@ -1,0 +1,183 @@
+/* @font-face { font-family: Eras; src: url('eras.ttf'); } */
+
+html {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+body {
+    width: 1100px;
+}
+
+#header {
+}
+
+#sidebar {
+    /*padding-left: 20px; */
+    margin-top: -30px;
+}
+
+#navigation {
+    margin-top: 50px;
+}
+
+#content {
+    margin-top: 50px;
+    text-align: justify;
+    padding-right: 30px;
+}
+
+.innerPadding {
+    padding: 0px 10px 10px;
+}
+
+a {
+    text-underline: dash;
+}
+
+.about {
+    color: #990E62;
+    margin-top: -8px;
+}
+
+.about > a {
+    color: #990E62;
+    text-decoration: underline;
+}
+
+.about > h3 > a {
+    color: #990E62;
+}
+
+#about {
+    margin-bottom: 33px;
+}
+
+.service {
+    color: #3BAEDF;
+    margin-top: -8px;
+}
+
+.service > a {
+    color: #2D3B8F;
+    text-decoration: underline;
+}
+
+.service > h3 > a {
+    color: #2D3B8F;
+}
+
+#service {
+    margin-bottom: 33px;
+}
+
+.news {
+    color: #91c749;
+    margin-top: -8px;
+}
+
+.news > a {
+    color: #91c749;
+    text-decoration: underline;
+}
+
+.news > h3 > a {
+    color: #91c749;
+}
+
+#news {
+    margin-bottom: 33px;
+}
+
+.calendar > h3 > a {
+    color: #f6ac4a;
+}
+
+.calendar > a {
+    color: #f6ac4a;
+    text-decoration: underline;
+}
+
+#calendar {
+    margin-bottom: 33px;
+}
+
+.login > h3 > a {
+    color: #585858;
+}
+
+#login {
+    margin-bottom: 33px;
+}
+
+.contact > h3 > a {
+    color: #990E62;
+}
+
+#contact {
+    margin-bottom: 33px;
+}
+
+.impressum {
+    margin-top: 100px;
+}
+
+.impressum > h3 > a {
+    color: #91c749;
+}
+
+.sbItem {
+    width: 200px;
+    height: 170px;
+    margin: 30px;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.sbItem > h3 {
+    color: #fff;
+}
+
+.sbItem > p, .sbItem > p > a {
+    padding-top: 10px;
+    font-size: 17px;
+    color: #fff;
+    font-size: 1.12em;
+}
+
+.teaserPicture {
+    width: 200px;
+    padding: 0px;
+    margin: -5px 0px 0px -15px;
+}
+
+.sbItem > p > a {
+    text-decoration: underline;
+}
+
+.sbnews {
+    background-color: #91c749;
+}
+
+.sbService {
+    background-color: #2D3B8F;
+}
+
+.sbAbout {
+    background-color: #990E62;
+}
+
+.sbCalendar {
+    background-color: #f6ac4a;
+}
+
+.list-inline > li {
+    padding-right: 60px;
+}
+
+.list-inline {
+    margin-left: -30px;
+    margin-top: 20px;
+    font-size: 1.2em;
+}
