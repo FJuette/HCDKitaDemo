@@ -7,7 +7,7 @@
             <div id="header">
                 <?php include("headerLeft.php") ?>
                 <div class="col-md-7">
-                    <img alt="headerChild" src="images/food.PNG" style="width: 460px;" />
+                    <img alt="headerChild" src="images/food.png" style="width: 460px;" />
                 </div>
             </div>
         </div>

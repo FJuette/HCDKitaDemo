@@ -22,7 +22,7 @@
                 <h5>Bitte wählen Sie aus:</h5>
                 <ul class="menuFamily">
                     <li>
-                        <a href="#">Nachrichten versenden</a>
+                        <a href="message.php">Nachrichten versenden</a>
                     </li>
                     <li>
                         <a href="addbrick.php">Textbausteine erstellen</a>
