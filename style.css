@@ -201,3 +201,17 @@ a {
     color: darkgray;
     text-decoration: underline;
 }
+
+.staffImg {
+    width: 150px;
+    border: 1px solid #000000;
+}
+
+.staffList {
+    list-style-type: none;
+    margin-left: -40px;
+}
+
+.staffList > li {
+    padding-bottom: 40px;
+}
