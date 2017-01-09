@@ -117,8 +117,8 @@ a {
     text-decoration: underline;
 }
 
-#login {
-    margin-bottom: 33px;
+.login {
+    color: var(--login-color);
 }
 
 .contact > h3 > a {

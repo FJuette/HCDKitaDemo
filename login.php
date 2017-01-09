@@ -1,6 +1,5 @@
 <?php include("head.php") ?>
 
-
 <body>
 <div class="row">
     <div class="col-md-9">
@@ -20,20 +19,18 @@
                         <div class="col-md-5">
                             <div class="panel panel-default" style="margin-left: -8px;">
                                 <div class="panel-heading">
-                                    <h3 class="panel-title">Login</h3>
+                                    <h3 class="login">Login</h3>
                                 </div>
                                 <div class="panel-body">
-                                    <form accept-charset="UTF-8" role="form" action="<?php $_PHP_SELF ?>" method="GET">
-                                        <fieldset>
-                                            <div class="form-group">
-                                                <input class="form-control" placeholder="Benutzername" name="user" id="user" type="text">
-                                            </div>
-                                            <div class="form-group">
-                                                <input class="form-control" placeholder="Passwort" name="password" id="password" type="password" value="">
-                                            </div>
-                                            <input class="btn btn-lg btn-success btn-block" type="submit" value="Login">
-                                        </fieldset>
-                                    </form>
+                                    <fieldset>
+                                        <div class="form-group">
+                                            <input class="form-control" placeholder="Benutzername (Eltern oder Erzieher)" name="user" id="user" type="text">
+                                        </div>
+                                        <div class="form-group">
+                                            <input class="form-control" placeholder="Passwort" name="password" id="password" type="password" value="">
+                                        </div>
+                                        <input class="btn btn-lg btn-success btn-block" type="button" value="Login" onclick="DoLogin()">
+                                    </fieldset>
                                 </div>
                             </div>
                         </div>
@@ -46,5 +43,21 @@
 </div>
 
 </body>
+
+
+<script type="text/javascript">
+    function DoLogin() {
+        var username = document.getElementById("user").value;
+        if (username == "Eltern") {
+            window.location = "family.php";
+        }
+        else if (username == "Erzieher") {
+            window.location = "internal.php";
+        }
+        else {
+            alert("Bitte nur die Benutzer \"Eltern\" oder \"Erzieher\" verwenden.")
+        }
+    }
+</script>
 
 </html>

@@ -15,6 +15,6 @@
         <h3><a href="calendar.php">KiTa-Kalendar</a></h3>
     </div>
     <div class="login" id="login">
-        <h3><a href="#">Login</a></h3>
+        <h3><a href="login.php">Login</a></h3>
     </div>
 </div>
