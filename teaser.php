@@ -2,14 +2,14 @@
     <div class="sbItem sbnews">
         <img src="images/teaser_1.PNG" class="teaserPicture" alt="Teaser">
         <p>
-            Meisterwerk des Monats... <a href="Meister.php">mehr</a>
+            Meisterwerk des Monats... <a href="meister.php">mehr</a>
         </p>
     </div>
 
     <div class="sbItem sbnews">
         <img src="images/teaser_2.PNG" class="teaserPicture" alt="Teaser">
         <p>
-            Ausflug zum Brocken... <a href="News.php">mehr</a>
+            Ausflug zum Brocken... <a href="news.php">mehr</a>
         </p>
     </div>
 
@@ -23,7 +23,7 @@
     <div class="sbItem sbLogin">
         <img src="images/teaser_4.PNG" class="teaserPicture" alt="Teaser">
         <p>
-            Achtung: Röteln... <a href="Login.php">mehr</a>
+            Achtung: Röteln... <a href="login.php">mehr</a>
         </p>
     </div>
 </div>
