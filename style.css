@@ -215,3 +215,16 @@ a {
 .staffList > li {
     padding-bottom: 40px;
 }
+
+.menuFamily {
+    margin-top: 30px;
+}
+
+.menuFamily > li {
+    color: darkgrey;
+}
+
+.menuFamily > li > a {
+    color: dimgrey;
+    text-decoration: underline;
+}
