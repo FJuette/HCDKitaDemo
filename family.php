@@ -43,7 +43,7 @@
                         <a href="#">Fotos und Videos der letzten Veranstaltungen einsehen</a>
                     </li>
                     <li>
-                        <a href="#">Hinweise auf aktuell, ansteckende Erkrankungen</a>
+                        <a href="illness.php">Hinweise auf aktuell, ansteckende Erkrankungen</a>
                     </li>
                 </ul>
             </div>
