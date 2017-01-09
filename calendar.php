@@ -15,7 +15,7 @@
             <?php include("navigation.php") ?>
             <div id="content" class="col-md-7 innerPadding">
                 <h4>KiTa-Kalendar</h4>
-                <img alt="Kalendar Beispiel" src="images/calendar.PNG" style="width: 460px;" />
+                <img alt="Bildbeispiel des Kalenders" src="images/calendar.PNG" style="width: 460px;" />
             </div>
         </div>
     </div>
