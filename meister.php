@@ -12,7 +12,7 @@
             </div>
             <?php include("navigation.php") ?>
             <div id="content" class="col-md-7 innerPadding">
-                <h4>Meisterwerk des Monats</h4>
+                <h4 class="news">Meisterwerk des Monats</h4>
                 <img alt="Meisterwerk" src="images/meisterContent.PNG" style="width: 460px;" />
                 <p>
                     Fritzchen, 4 Jahre
