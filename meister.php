@@ -20,8 +20,8 @@
                     "Ein Sommertag"
                     <br />
                     Buntstriftzeichnung auf Papier
-                    <div class="calendar">
-                        <a href="#" class="">Archiv</a>
+                    <div class="news" style="margin-top: 30px;">
+                        <a href="#">Archiv</a>
                     </div>
                 </p>
             </div>
