@@ -14,22 +14,22 @@
             <div class="row">
                 <?php include("navigation.php") ?>
                 <div id="content" class="col-md-7 innerPadding">
-                    <h4>Über uns</h4>
+                    <h4 class="about">Über uns</h4>
                     <h5>Unser Motto: „Naturnah, kreativ und bewegungsfroh“</h5>
                     <p>
-                        Liebe Besucher!
+                    Liebe Besucher!
                     </p>
                     <p>
-                        Herzlich willkommen auf den Seiten des Kindergartens Erzstraße.
+                    Herzlich willkommen auf den Seiten des Kindergartens Erzstraße.
                     </p>
                     <p>
-                        Glückliche und selbstbewusste Kinder, die neugierig die Welt entdecken und mit Freude lernen, sind das Ziel unserer pädagogischen Arbeit.
+                    Glückliche und selbstbewusste Kinder, die neugierig die Welt entdecken und mit Freude lernen, sind das Ziel unserer pädagogischen Arbeit.
                     </p>
                     <p>
-                        Nachfolgend haben Sie Gelegenheit, sich über unser Haus und unsere Arbeitsweise zu informieren.
+                    Nachfolgend haben Sie Gelegenheit, sich über unser Haus und unsere Arbeitsweise zu informieren.
                     </p>
                     <p>
-                        Viel Spaß dabei wünscht das Kiga-Team Erzstraße
+                    Viel Spaß dabei wünscht das Kiga-Team Erzstraße
                     </p>
                 </div>
             </div>

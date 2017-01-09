@@ -1,5 +1,13 @@
 /* @font-face { font-family: Eras; src: url('eras.ttf'); } */
 
+:root {
+    --about-color: #2D3B8F;
+    --service-color: #f6ac4a;
+    --news-color: #91c749;
+    --calendar-color: #585858;
+    --login-color: #990E62;
+}
+
 html {
     margin-left: 100px;
     margin-top: 50px;
@@ -36,17 +44,18 @@ a {
 }
 
 .about {
-    color: #990E62;
+    color: var(--about-color);
     margin-top: -8px;
 }
 
 .about > a {
-    color: #990E62;
+    color: var(--about-color);
     text-decoration: underline;
 }
 
 .about > h3 > a {
-    color: #990E62;
+    color: var(--about-color);
+    text-decoration: underline;
 }
 
 #about {
@@ -54,17 +63,18 @@ a {
 }
 
 .service {
-    color: #3BAEDF;
+    color: var(--service-color);
     margin-top: -8px;
 }
 
 .service > a {
-    color: #2D3B8F;
+    color: var(--service-color);
     text-decoration: underline;
 }
 
 .service > h3 > a {
-    color: #2D3B8F;
+    color: var(--service-color);
+    text-decoration: underline;
 }
 
 #service {
@@ -72,17 +82,18 @@ a {
 }
 
 .news {
-    color: #91c749;
+    color: var(--news-color);
     margin-top: -8px;
 }
 
 .news > a {
-    color: #91c749;
+    color: var(--news-color);
     text-decoration: underline;
 }
 
 .news > h3 > a {
-    color: #91c749;
+    color: var(--news-color);
+    text-decoration: underline;
 }
 
 #news {
@@ -90,11 +101,12 @@ a {
 }
 
 .calendar > h3 > a {
-    color: #f6ac4a;
+    color: var(--calendar-color);
+    text-decoration: underline;
 }
 
 .calendar > a {
-    color: #f6ac4a;
+    color: var(--calendar-color);
     text-decoration: underline;
 }
 
@@ -103,7 +115,8 @@ a {
 }
 
 .login > h3 > a {
-    color: #585858;
+    color: var(--login-color);
+    text-decoration: underline;
 }
 
 #login {
@@ -111,7 +124,7 @@ a {
 }
 
 .contact > h3 > a {
-    color: #990E62;
+    color: grey;
 }
 
 #contact {
@@ -123,7 +136,7 @@ a {
 }
 
 .impressum > h3 > a {
-    color: #91c749;
+    color: grey;
 }
 
 .sbItem {
@@ -157,19 +170,23 @@ a {
 }
 
 .sbnews {
-    background-color: #91c749;
+    background-color: var(--news-color);
 }
 
 .sbService {
-    background-color: #2D3B8F;
+    background-color: var(--service-color);
 }
 
 .sbAbout {
-    background-color: #990E62;
+    background-color: var(--about-color);
 }
 
 .sbCalendar {
-    background-color: #f6ac4a;
+    background-color: var(--calendar-color);
+}
+
+.sbLogin {
+    background-color: var(--login-color);
 }
 
 .list-inline > li {
@@ -180,4 +197,9 @@ a {
     margin-left: -30px;
     margin-top: 20px;
     font-size: 1.2em;
+}
+
+.footer{
+    color: darkgray;
+    text-decoration: underline;
 }
