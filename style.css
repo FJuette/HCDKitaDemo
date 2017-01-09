@@ -228,3 +228,19 @@ a {
     color: dimgrey;
     text-decoration: underline;
 }
+
+#tblFood {
+    width: 100%;
+    border: 1px solid #000000;
+
+}
+
+.foodHead {
+    font-weight: bold;
+    vertical-align: top;
+}
+
+td {
+    padding: 5px;
+    font-size: 0.9em;
+}

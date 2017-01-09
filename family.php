@@ -22,7 +22,7 @@
                 <h5>Bitte wählen Sie aus:</h5>
                 <ul class="menuFamily">
                     <li>
-                        <a href="#">Essen bestellen</a>
+                        <a href="food.php">Essen bestellen</a>
                     </li>
                     <li>
                         <a href="#">Terminplan einsehen</a>
